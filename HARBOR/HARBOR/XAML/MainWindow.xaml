@@ -25,7 +25,7 @@
             <Label Content="     "/>
             <StackPanel Orientation="Horizontal">
                 <Label Content="     "/>
-                <Button FontStyle="Normal" Width="240" Height="40" FontSize="22" HorizontalAlignment="Left" Content="Atmospheric Calculator"/>
+                <Button FontStyle="Normal" Command="{Binding AtmoCommand}" Width="240" Height="40" FontSize="22" HorizontalAlignment="Left" Content="Atmospheric Calculator"/>
                 <Label FontStyle="Italic" FontWeight="ExtraLight" VerticalAlignment="Center" Content=" Atmospheric Calculation tool"/>
             </StackPanel>
         </StackPanel>
@@ -34,7 +34,7 @@
             <Label Content="     "/>
             <StackPanel Orientation="Horizontal">
                 <Label Content="     "/>
-                <Button FontStyle="Normal" Width="170" Height="40" FontSize="22" HorizontalAlignment="Left" Content="Ship Calculator"/>
+                <Button FontStyle="Normal" Command="{Binding ShopCalcCommand}" Width="170" Height="40" FontSize="22" HorizontalAlignment="Left" Content="Ship Calculator"/>
                 <Label FontStyle="Italic" FontWeight="ExtraLight" VerticalAlignment="Center" Content=" Calculation tool to determine various ship statistics"/>
             </StackPanel>
         </StackPanel>
@@ -43,7 +43,7 @@
             <Label Content="     "/>
             <StackPanel Orientation="Horizontal">
                 <Label Content="     "/>
-                <Button FontStyle="Normal" Width="180" Height="40" FontSize="22" HorizontalAlignment="Left" Content="Ship Design Tool"/>
+                <Button FontStyle="Normal" Command="{Binding ShipDesignCommand}" Width="180" Height="40" FontSize="22" HorizontalAlignment="Left" Content="Ship Design Tool"/>
                 <Label FontStyle="Italic" FontWeight="ExtraLight" VerticalAlignment="Center" Content="  Ship Design and database tool"/>
             </StackPanel>
         </StackPanel>
